@@ -1,33 +1,8 @@
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environment
 .venv/
 venv/
-env/
-
-# Testing and coverage
+__pycache__/
+*.py[cod]
 .pytest_cache/
-.coverage
-htmlcov/
-
-# Environment variables and secrets
 .env
 .env.*
-!.env.example
-
-# IDE and editor
 .vscode/
-.idea/
-
-# Build artifacts
-build/
-dist/
-*.egg-info/
-
-# Operating system
-.DS_Store
-Thumbs.db
